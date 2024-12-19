@@ -1,0 +1,53 @@
+name: madmon
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  #====== bloc =====#
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.4
+  #===== image =====#
+  flutter_svg: ^2.0.10+1
+  #====== responsive screen=========#
+  flutter_screenutil: ^5.8.4
+  #======= no internet =========#
+  flutter_offline: ^3.0.0
+  #======= git it for no create new object ===///
+  get_it: ^7.6.0
+  injectable:
+  equatable: ^2.0.5
+  #========== bottom sheet =========#
+  modal_bottom_sheet: ^3.0.0-pre
+  #====== range slider ====#
+  flutter_xlider: ^3.5.0
+  #===== send to url ====#
+  url_launcher: ^6.1.12
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  injectable_generator:
+
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - lib/core/global/icons/
+    # - lib/core/global/fonts/
